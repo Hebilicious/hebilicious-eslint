@@ -1,18 +1,19 @@
 {
   "name": "@hebilicious/eslint-config",
-  "version": "0.0.3-beta.0",
+  "version": "0.0.3-beta.1",
   "description": "Eslint Config",
+  "author": "Hebilicious",
+  "license": "MIT",
   "main": "index.js",
+  "repository": "Hebilicious/hebilicious-eslint",
   "packageManager": "pnpm@8.6.5",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint --cache . --fix",
     "release": "bumpp"
   },
   "keywords": [
     "eslint"
   ],
-  "author": "Hebilicious",
-  "license": "MIT",
   "peerDependencies": {
     "eslint": "^8.46.0"
   },
