@@ -1,0 +1,24 @@
+{
+  "name": "@hebilicious/eslint-config",
+  "version": "0.0.0",
+  "description": "Eslint Config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "release": "bumpp && pnpm publish"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Hebilicious",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^8.46.0"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^0.40.0"
+  },
+  "devDependencies": {
+    "bumpp": "^9.1.1"
+  }
+}
