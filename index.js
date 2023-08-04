@@ -6,7 +6,8 @@ module.exports = {
     "comma-dangle": ["error", "never"],
     "yml/quotes": "off",
     "antfu/if-newline": "off",
-    "n/prefer-global/process": ["error", "always"]
+    "n/prefer-global/process": ["error", "always"],
+    "yml/no-empty-mapping-value": "off"
   },
   overrides: [
     {
