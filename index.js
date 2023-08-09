@@ -7,7 +7,8 @@ module.exports = {
     "yml/quotes": "off",
     "antfu/if-newline": "off",
     "n/prefer-global/process": ["error", "always"],
-    "yml/no-empty-mapping-value": "off"
+    "yml/no-empty-mapping-value": "off",
+    "antfu/top-level-function": "off"
   },
   overrides: [
     {
